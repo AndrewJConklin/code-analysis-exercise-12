@@ -23,16 +23,16 @@ function (currentColor){
 
 Inputs and outputs should be valid JavaScript values!
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| Input  | Output   |
+|"green" | "yellow" |
+|"yellow"| 'red'    | 
+|"red"   | 'green'  | 
+|"pink"  |undefined | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program takes the current color of a traffic light as an input and outputs the next color of the traffic light.</td>
   </tr>
 </table>
 
